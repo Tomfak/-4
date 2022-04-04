@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+	char ch[]="3+4";
+	int a,b,c=0;//a左边数，b右边数，c和
+	a=ch[0]-'0';
+	b=ch[2]-'0';
+	c=a+b;
+	printf("3+4的和为:%d\n",c);
+}
